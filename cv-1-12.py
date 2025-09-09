@@ -19,6 +19,7 @@ def pixel_counting(image_bgr):
 
 
 if __name__ == "__main__":
-    image_path = 'img_red.png'
+    image_path = 'img.png'
     image_bgr = cv2.imread(image_path)
     print(pixel_counting(image_bgr))
+
