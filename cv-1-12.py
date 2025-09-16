@@ -86,7 +86,8 @@ def main():
     and outputs the number of red pixels.
 
     Raises:
-        ValueError: If the image path is empty, the file does not exist, or the image cannot be loaded.
+        ValueError: If the image path is empty or the image cannot be loaded.
+        FileNotFoundError: If the file does not exist.
     """
     try:
         s = input("Enter image path: ").strip()
@@ -109,3 +110,4 @@ def main():
 if __name__ == "__main__":
     # If you need to create an image, use create_image()
     main()
+
