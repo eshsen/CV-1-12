@@ -32,7 +32,7 @@ pip install opencv-python numpy Pillow
 
 ## Code structure
 
-- `create_image()` — generates an image with red hues and saves it to the file `img_red.png`
+- `create_image()` — generates an image with red hues and saves it to the file `img.png`
 - `load_image(img_path)` — loads the image with a validity check
 - `pixel_counting(image_bgr)` — counts the red pixels in the image (in the HSV color space)
 - `main()` — the main program loop with user input handling and error processing
