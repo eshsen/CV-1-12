@@ -1,4 +1,4 @@
-# CV-1-12
+# CV-1-12: Counting pixels by color
 
 This script creates an image with red shades and counts the number of red pixels in the user-specified image using the OpenCV library.
 
